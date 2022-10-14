@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body class="bg-light">
+    
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+          <a class="navbar-brand text-danger fw-bold fs-4" href="#">Argentina</a>
+          <div class="dropdown">
+              <button class="btn btn-secondary btn-danger" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end"             aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#home">Home</a></li>
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              <li><a class="dropdown-item" href="#services">Services</a></li>
+              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+  </nav>
+    
+<section class="home py-5" id="home" style="background-color:darkslategray;">
+    <div class="container-lg"> 
+      <div class="row min-vh-100 align-items-center align-content-center ">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="pbootstrap.jpeg" height="500px" width="450px" alt="profile img" style="border: 1px solid black; border-radius: 1%;">
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm a</p>
+            <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Designer,</h1>
+            <h2 class="fs-4">Santiago Nilsson</h2>
+            <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus illum earum eum minima repellendus vero quasi, obcaecati ab maiores ipsa necessitatibus distinctio molestias sunt temporibus porro! Illum dolore non quo.</p>
+            <a class="btn btn-danger px-3" href="#portfolio">My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="about bg-white py-5" id="about">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 ">
+        <div class="section-title text-center">
+          <h2 class="fw-bold mb-5">About Me</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-text">
+          <h3 class="fs-4 mb-3"> Lorem ipsum dolor sit amet consectetur</h3>
+          <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur iste temporibus unde vero dolor mollitia? Culpa quaerat veniam, obcaecati hic voluptate sunt quia, enim consequatur porro officiis, tempora labore ad?</p>
+        </div>
+        <div class="row text-center text-uppercase my-3">
+          <div class="col-sm-4">
+            <div class="fact-item">
+              <h4 class="fs-1 fw-bold">0</h4>
+              <p>Projetcs completed</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="fact-item">
+              <h4 class="fs-1 fw-bold">3</h4>
+              <p>Degrees</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="fact-item">
+              <h4 class="fs-1 fw-bold">0</h4>
+              <p>Positive reviews</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 d-flex align-items-center">
+            <a href="#" class="btn btn-danger me-5">Download CV</a>
+            <div class="social-links">
+              <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-dark me-2"><i class="fab fa-github"></i></a>
+              <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mt-5 mt-md-0">
+        <div class="skill-item mb-4">
+          <h3 class="fs-6">Html</h3>
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="skill-item mb-4">
+          <h3 class="fs-6">Css</h3>
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="skill-item mb-4">
+          <h3 class="fs-6">MySQL</h3>
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" aria-label="Basic example" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="skill-item mb-4">
+          <h3 class="fs-6">Javascript</h3>
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services py-5" id="services">
+<div class="container-lg py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="section-title text-center">
+          <h2 class="fw-bold mb-5">What I do</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="service-item shadow-sm py-4 rounded bg-white">
+        <div class="icon my-3 text-danger fs-2">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3 class="fs-5 py-2">Web Development</h3>
+        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="service-item shadow-sm py-4 rounded bg-white">
+        <div class="icon my-3 text-danger fs-2">
+          <i class="fas fa-lightbulb"></i>
+        </div>
+        <h3 class="fs-5 py-2">Appealing Designs</h3>
+        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="service-item shadow-sm py-4 rounded bg-white">
+        <div class="icon my-3 text-danger fs-2">
+          <i class="fas fa-video"></i>
+        </div>
+        <h3 class="fs-5 py-2">Video editing</h3>
+        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="freeancer-avaliable bg-danger">
+  <div class="container-lg py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <p class="text-light fs-5">Do you have any projects to achieve?</p>
+        <h2 class="fs-1 text-white mb-4">I'm Avaliable</h2>
+        <a href="#contact" class="btn btn-outline-light">Hire me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact py-5" id="contact">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="fs-1 fw-bold mb-4">Contact Me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="contact-item d-flex">
+          <div class="icon fs-4 text-danger">
+            <i class="fas fa-envelope "></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Email</h3>
+            <p class="text-muted ">santinilson19@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item d-flex">
+          <div class="icon fs-4 text-danger">
+            <i class="fas fa-phone "></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Phone</h3>
+            <p class="text-muted ">2804026475</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="contact-form">
+          <form>
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <input type="text" placeholder="Your name" class="form-control form-control-lg fs-6">
+              </div>
+              <div class="col-lg-6 mb-4">
+                <input type="email" placeholder="Your email" class="form-control form-control-lg fs-6">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <input type="email" placeholder="Subject" class="form-control form-control-lg fs-6">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <textarea rows="5" placeholder="Your message" class="form-control form-control-lg fs-6"></textarea>
+              </div> 
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
